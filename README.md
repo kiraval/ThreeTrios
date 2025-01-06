@@ -6,3 +6,9 @@ Player Red goes first. Each round has two phases: the placing phase and the batt
 The game ends when all of the empty card cells have been filled. The winner is determined by counting the number of cards each player has on the grid and in their hands. The player who owns the most cards wins. If no such player exists, the game is tied.
 
 ## Starting the game
+With the resources zip unzipped in the same location as the jar file, you can run the following command in terminal:  
+`java -jar ThreeTrios.jar [player type] [player type]`  
+**Player Types**: `human`, `ai`  
+If the player type is `ai` then you must follow it with one of the following game strategies:  
+`maxflip` - Chooses the move that will flip the most cards  
+`corner` - picks the right uppermost corner of the board
